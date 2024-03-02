@@ -21,6 +21,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service android:name="com.larrykin343.boundservices.ExampleService"
+            android:exported="false"
+            android:description="@string/serviceDescription"/>
     </application>
 
 </manifest>
